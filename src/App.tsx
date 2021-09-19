@@ -1,5 +1,5 @@
 import React from 'react';
-import {Header} from '../components/molecules/Header/Header'
+import {Header} from '../src/components/molecules/Header'
 
 
 function App() {

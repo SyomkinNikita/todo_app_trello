@@ -29,9 +29,17 @@ export const HeaderWithText = ({children, tag}: HeaderWithTextProps): JSX.Elemen
                 </Styled.HeaderStyled>
             )
         case 5:
-            return <h5>{children}</h5>
+            return (
+                <Styled.HeaderStyled>
+                    <h5>{children}</h5>
+                </Styled.HeaderStyled>
+            )
         case 6:
-            return <h6>{children}</h6>
+            return (
+                <Styled.HeaderStyled>
+                    <h6>{children}</h6>
+                </Styled.HeaderStyled>
+            )
         default:
             return <div>{children}</div>
     }

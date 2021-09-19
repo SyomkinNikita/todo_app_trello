@@ -1,10 +1,10 @@
 import React from 'react';
-import {HeaderWithText} from './components/molecules/HeaderWithText/HeaderWithText'
+import TrelloBoard from './pages/trello-board/TrelloBoard';
 
 
 function App() {
   return (
-    <HeaderWithText tag={5}>Hello</HeaderWithText>
+    <TrelloBoard />
   );
 }
 

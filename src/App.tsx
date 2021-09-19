@@ -1,10 +1,10 @@
 import React from 'react';
-import {Header} from '../src/components/molecules/Header'
+import {HeaderWithText} from './components/molecules/HeaderWithText/HeaderWithText'
 
 
 function App() {
   return (
-    <Header>Hello</Header>
+    <HeaderWithText tag={5}>Hello</HeaderWithText>
   );
 }
 
